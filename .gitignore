@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 环境与密钥（不要提交）
+.env
+*.key
+*.pem
+
+# 日志与临时文件
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# 大体积模型权重不入库
+models/
+*.safetensors
+*.gguf
+*.bin
